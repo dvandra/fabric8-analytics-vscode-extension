@@ -19,4 +19,4 @@ export const getRequestPollInterval = 2 * 1000; // ms
 // Staging RECOMMENDER_API_URL
 export const stage_recommender_api_url = "https://f8a-analytics-preview-2445582058137.staging.gw.apicast.io";
 // Staging THREE_SCALE_USER_TOKEN
-export const stage_three_scale_user_token = "";
+export const stage_three_scale_user_token = "3e42fa66f65124e6b1266a23431e3d08";
