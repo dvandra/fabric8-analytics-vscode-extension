@@ -50,7 +50,7 @@ File(Code on macOS) > Preferences > Settings to open your [Settings](https://cod
 
 1. Opening or editing a manifest file (`pom.xml` / `package.json` / `requirements.txt`) scans your application for security vulnerabilities, flag them along with 'quick fixes'.
 
-![ screencast ](images/0.2.0/component-analysis.gif)
+![ screencast ](images/0.2.0/compAnalysis.gif)
 
 2. Right click on a manifest file(`pom.xml` / `package.json` / `requirements.txt`) and choose 'Dependency Analytics Report ...' to display 'Dependency Analytics' report. This report covers deeper insights into your application dependencies:
 
@@ -59,11 +59,11 @@ File(Code on macOS) > Preferences > Settings to open your [Settings](https://cod
 - Suggests a project level license, check for conflicts between dependency licences
 - AI based guidance for additional,alternative dependencies
 
-![ screencast ](images/0.2.0/stack-analysis.gif)
+![ screencast ](images/0.2.0/stackanalysis.gif)
 
 3. **For multi module maven application** Right click on root `pom.xml` in editor window and choose 'Dependency Analytics Report ...' to display 'Dependency Analytics' report for the entire application.
 
-![ screencast ](images/0.2.0/multi-stack-analysis.gif)
+![ screencast ](images/0.2.0/stackanalysis-multi.gif)
 
 ---
 
@@ -78,6 +78,10 @@ File(Code on macOS) > Preferences > Settings to open your [Settings](https://cod
 2. Look for ![snyk button](images/0.2.0/snykButton.png) in Dependency Analytics Report and click on the button to enter your Snyk Token. Paste your snyk token and click on the `Submit button`.
 
 ![ screencast ](images/0.2.0/snykToken.gif)
+
+3. Successfully entering the Snyk token the Dependency Analyitcs report will updated with the detailed information of security vulnerability unique to snyk and vulnerabilities having publicly known exploit.
+
+![ screencast ](images/0.2.0/regStackAnalysisReport.gif)
 
 # Know more about Dependency Analytics Platform
 
